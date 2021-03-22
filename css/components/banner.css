@@ -1,0 +1,33 @@
+.banner {
+  background-image: url('https://spanishmama.com/wp-content/uploads/2018/04/Authentic-Spanish-Songs-with-Preterite-and-Imperfect-27.png');
+  height: 50%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+/*  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;*/
+  position: absolute;
+  bottom: -15%;
+  height:  30%;
+  width: 60%;
+  color: #A52A2A;
+  background-color: #DCDCDC;
+  box-shadow: 4px 2px 11px #aaaaaa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title h1, h2 {
+  margin: 5px;
+  padding: 5px;
+}
+
