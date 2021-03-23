@@ -35,5 +35,22 @@ body {
   width: 75%;
   height: 20vh;
   flex-grow: 1;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 1.75vw;
+  }
+
+  .avatar {
+    height: 15px;
+    width: 15px;
+  }
+
+  .card-movie-top-rating img {
+    height: 15px;
 }
 }
