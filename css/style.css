@@ -25,4 +25,15 @@ body {
   .container {
     margin: 2% auto;
   }
+
+.movie-img {
+   width: 25%;
+   height: 20vh;
+}
+
+.movie-embbed {
+  width: 75%;
+  height: 20vh;
+  flex-grow: 1;
+}
 }
