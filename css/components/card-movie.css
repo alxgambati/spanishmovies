@@ -58,12 +58,12 @@
 
 .movie-img {
    width: 25%;
-   height: 30vh;
+   height: 35vh;
 }
 
 .movie-embbed {
   width: 75%;
-  height: 30vh;
+  height: 35vh;
   flex-grow: 1;
 }
 
