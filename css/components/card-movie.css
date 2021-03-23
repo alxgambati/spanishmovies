@@ -2,7 +2,7 @@
   background-color: #202020;
 /*  width: 110%;
   margin: 20px -5% 20px -5%;*/
-  margin: 50px auto;
+  margin: 5% auto;
   color: white;
 }
 
@@ -10,25 +10,33 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 10px;
+  padding: 1%;
 }
 
 .card-movie-top-title {
   justify-content: flex-start;
   color: white;
   text-align: left;
-  padding: 10px;
+  padding: 1%;
 }
 
 .card-movie-top-title h1, p {
   margin: 0;
 }
 
+.card-movie-top-title h1 {
+  font-size: 1.5vw;
+}
+
+.card-movie-top-title p {
+  font-size: 1vw;
+}
+
 .card-movie-top-rating {
   display: flex;
   align-items: flex-start;
-  margin-top: 20px;
-  margin-right: 5px;
+  margin-top: 2%;
+  margin-right: 0.5%;
 }
 
 .card-movie-top-rating img {
@@ -48,18 +56,21 @@
   width: 100%;
 }
 
-.card-movie-content .movie-img {
-   width: 20%;
+.movie-img {
+   width: 25%;
+   height: 30vh;
 }
 
 .movie-embbed {
+  width: 75%;
+  height: 30vh;
   flex-grow: 1;
 }
 
 .card-movie-bottom {
   background-color: black;
   color: #FFFF66;
-  padding: 20px;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,13 +79,14 @@
 
 .btn-netflix {
   color: white;
-  padding: 15px 25px;
+  padding: 1.5% 2.5%;
   border-radius: 4px;
   font-weight: bold;
+  font-size: 1vw;
   background: #E50914;;
   transition: background 0.3s ease;
-  width: 180px;
-  margin-top: 30px;
+  width: 20%;
+  margin-top: 3%;
 }
 
 .btn-netflix:hover {

@@ -10,3 +10,19 @@ body {
   text-align: center;
   background-color:  rgb(246, 255, 255);
 }
+
+@media (max-width: 720px) {
+  .title {
+    bottom: -7%;
+    height:  15%;
+  }
+
+  .title h1, h2 {
+    margin: 2px;
+    padding: 2px;
+  }
+
+  .container {
+    margin: 2% auto;
+  }
+}

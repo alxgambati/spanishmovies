@@ -26,6 +26,14 @@
   justify-content: center;
 }
 
+.title h1 {
+  font-size: 2vw;
+}
+
+.title h2 {
+  font-size: 1.5vw;
+}
+
 .title h1, h2 {
   margin: 5px;
   padding: 5px;
